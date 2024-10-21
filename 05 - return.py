@@ -9,7 +9,7 @@ def double(num):
 
 # Whatever is calling this function will use what is returned
 
-num = 10
+num = 0
 
 print("The number is:",num, "The number doubled is", double(num))
 

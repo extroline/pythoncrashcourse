@@ -40,8 +40,11 @@ new_list.remove("World")
 
 print("New list version 5:", new_list)
 
-
+del new_list[5]
+new_list.remove("woke")
 # BREAK IT:
 # What happens if we try to del at an index that doesn't exist (an index too high)?
 # What happens if we try to remove a value that doesn't exist in the list?
 # Why do the errors occur?
+#woke is not in the list
+# removing something that doesn't exist in the list 

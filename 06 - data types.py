@@ -12,7 +12,7 @@ num3 = 8
 num4 = num1 + num2 * num3
 
 # okay, so what is the value of num4? I hope you remembered your orders of operations from math class! Please excuse my dear Aunt Sally.
-print("The value of num3 is:",num4)
+print("The value of num3 is:",num4) 
 
 # integers are cool because we can do several operators:
 print(num1,"+",num3,"=",num1+num3)
@@ -21,7 +21,7 @@ print(num1,"*",num3,"=",num1*num3)
 print(num1,"/",num3,"=",num1/num3) 
 # when you divide, the result will change to a floating point number instead of an integer.
 # We don't need to learn about floating point numbers at this time, but it may be helpful in the future.
-print(num1,"%",num3,"=",num1%num3)
+print(num1,"%",num3,"=",num1%num3 )
 # NOTE: The % is called a "modulo" or "mod". It will give you the remainder of a division as an integer
 # For example, 19%5 is 4, because 19 / 5 is 3 with a remainder of 4. 
 
@@ -44,10 +44,14 @@ print("The value of string4 is:", string4)
 
 # What happens if we multiply a string by an integer?
 # for example:
-# print("Hello " * 10)
+print("Hello " * 10)
 # try it out! It actually works!
 
-
+string1 - string2 
+string1 * string2 
+num1 / 0 
+# strings can not be operanted on 
+# dividing by 0 doesn't work
 # BREAK IT:
 # What happens if you try to subtract a string from a string?
 # What happens if you multiply a string by a string?

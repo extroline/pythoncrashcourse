@@ -13,7 +13,7 @@ Another way we can add comments is by using triple apostrophes above and below a
 # print() writes out whatever is within the parenthesis to the output stream.
 # Try pressing the Run button (looks like a play button in the upper right of VSCode)
 
-print("Hello World")
+print(" World"
 
 # you should see "Hello World" in the output.
 
@@ -25,7 +25,7 @@ print("Hello World")
 # Try writing Hello World in the print() without the quotes, saving, and running what happens?
 # Why do you think the error occurs?
 
-
+# it can't read it as a string but reads as a verb
 # AS YOUR READ THROUGH EACH SCRIPT, WHEN YOU FINISH, BE SURE TO RUN THE SCRIPT AND READ THE OUTPUT TO SEE WHAT IS GOING ON.
 
 # Each assignment will have a "BREAK IT!" section which will give you some ideas on how to break the code, either causing errors or unexpected behavior. It is good to break the code to try to understand what causes these problems so you'll know how to troubleshoot them when they occur in your own code!

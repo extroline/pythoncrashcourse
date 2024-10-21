@@ -6,7 +6,6 @@
 # The code has a parameter called num
 # The goal of the function is to return a list with every EVEN number from 0 until one less than num.
 
-
 # ---------------------------------------------------------------------------------- #
 def even_numbers(num):
     # num is a positive integer greater than zero
@@ -14,7 +13,9 @@ def even_numbers(num):
     # For example, if the number is 6, return [0,2,4]
     
     # write your code here    
+    for i in range(len(num)):
 
+        print(i,"->",num[i])
     # replace the return value your even number list
     return []
 
