@@ -13,9 +13,7 @@ def even_numbers(num):
     # For example, if the number is 6, return [0,2,4]
     
     # write your code here    
-    for i in range(len(num)):
-
-        print(i,"->",num[i])
+   
     # replace the return value your even number list
     return []
 
