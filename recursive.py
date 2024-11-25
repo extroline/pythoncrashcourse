@@ -54,7 +54,7 @@ def hanoi_solver(start, end, helper, disks):
         # solve disks - 1 from helper to end 
         hanoi_solver(helper, end, start, disks-1)
 
-hanoi_solver("A","C", "B", 100)
+hanoi_solver("A","C", "B", 3)
 
 
         
